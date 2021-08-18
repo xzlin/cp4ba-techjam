@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>set client input</name>
+  <uuid>69c6621b-3a24-4657-a077-b998ddb2be38</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set decision to a new ML model input where
+the clientannualrevenue is the Annual Revenue of 'Client Information',
+the clientemployeenumber is the Number of Employees of 'Client Information',
+the clientexistenceduration is the Company Age of 'Client Information' ,
+the clientindustry is 0 ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>
